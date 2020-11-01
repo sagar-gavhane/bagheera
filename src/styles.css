@@ -15,12 +15,15 @@ body {
 .logo-section {
   display: grid;
   justify-content: center;
-}
-
-.logo-title {
-  margin: 0.5rem 0;
+  justify-items: center;
 }
 
 .logo-section img {
   display: block;
+  width: 75px;
+  height: 75px;
+}
+
+#output {
+  margin: 1rem 0;
 }

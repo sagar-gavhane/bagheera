@@ -6,6 +6,7 @@
   <title>Bagheera</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css"/>
   <link rel="stylesheet" href="./../src/styles.css"/>
+  <script src="./../src/app.js"></script>
 </head>
 <body>
   <div class="wrapper">
@@ -15,10 +16,12 @@
         <h1 class="logo-title">Bagheera</h1>
       </div>
       <div>
-        <form action="">
-          <input type="url" name="" id=""/>
+        <form action="javascript:;" onsubmit="shortenService()">
+          <input type="url" name="url" id="url"/>
           <button type="submit">Shorten</button>
         </form>
+      </div>
+      <div id="output">
       </div>
     </div>
   </div>
