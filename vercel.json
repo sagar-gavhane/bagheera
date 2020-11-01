@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "alias": ["https://bagheera.vercel.app"],
+  "rewrites": [
+    { "source": "/", "destination": "/src/index.html" },
+    { "source": "/:id", "destination": "/api/redirect" }
+  ]
+}
